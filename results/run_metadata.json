@@ -1,0 +1,33 @@
+{
+  "run_at_utc": "2026-10-12T02:31:45+00:00",
+  "hardware": {
+    "device": "mps",
+    "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+    "python": "3.13.16",
+    "torch": "2.14.1",
+    "cpu": "Apple M1 Max",
+    "ram_gb": 32.0,
+    "accelerator": "Apple M1 Max GPU (Metal / MPS)",
+    "accelerator_memory_gb": 32.0,
+    "inference_dtype": "float32"
+  },
+  "libraries": {
+    "transformers": "5.19.0",
+    "datasets": "5.1.0",
+    "scikit-learn": "1.9.1",
+    "torch": "2.14.1"
+  },
+  "eval_rows": 2388,
+  "primary_text_variant": "text_clean",
+  "recommended_model": "finbert_fintwitter",
+  "thresholds": {
+    "accuracy": 0.85,
+    "f1_macro": 0.8,
+    "recall_Bearish": 0.8,
+    "p95_latency_ms": 50.0
+  },
+  "latency_samples": {
+    "accelerator": 200,
+    "cpu": 100
+  }
+}

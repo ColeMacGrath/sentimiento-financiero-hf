@@ -1,0 +1,19 @@
+{
+  "dataset_id": "zeroshot/twitter-financial-news-sentiment",
+  "revision": "ccbe24de388e287beb92dd393a335c376b350ac3",
+  "source_url": "https://huggingface.co/datasets/zeroshot/twitter-financial-news-sentiment",
+  "license": "MIT",
+  "language": "en",
+  "downloaded_at_utc": "2026-10-12T01:44:57+00:00",
+  "rows_per_split": {
+    "train": 9543,
+    "validation": 2388
+  },
+  "label_mapping": {
+    "0": "Bearish",
+    "1": "Bullish",
+    "2": "Neutral"
+  },
+  "max_chars": 227,
+  "share_with_url": 0.4704
+}

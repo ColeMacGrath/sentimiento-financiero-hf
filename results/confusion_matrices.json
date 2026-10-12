@@ -1,0 +1,146 @@
+{
+  "finbert": {
+    "labels": [
+      "Bearish",
+      "Bullish",
+      "Neutral"
+    ],
+    "matrix": [
+      [
+        261,
+        12,
+        74
+      ],
+      [
+        57,
+        286,
+        132
+      ],
+      [
+        219,
+        185,
+        1162
+      ]
+    ]
+  },
+  "finbert_tone": {
+    "labels": [
+      "Bearish",
+      "Bullish",
+      "Neutral"
+    ],
+    "matrix": [
+      [
+        225,
+        16,
+        106
+      ],
+      [
+        22,
+        304,
+        149
+      ],
+      [
+        169,
+        156,
+        1241
+      ]
+    ]
+  },
+  "distilroberta_fin": {
+    "labels": [
+      "Bearish",
+      "Bullish",
+      "Neutral"
+    ],
+    "matrix": [
+      [
+        268,
+        20,
+        59
+      ],
+      [
+        35,
+        342,
+        98
+      ],
+      [
+        163,
+        211,
+        1192
+      ]
+    ]
+  },
+  "finbert_fintwitter": {
+    "labels": [
+      "Bearish",
+      "Bullish",
+      "Neutral"
+    ],
+    "matrix": [
+      [
+        285,
+        12,
+        50
+      ],
+      [
+        31,
+        388,
+        56
+      ],
+      [
+        106,
+        63,
+        1397
+      ]
+    ]
+  },
+  "fintwitbert": {
+    "labels": [
+      "Bearish",
+      "Bullish",
+      "Neutral"
+    ],
+    "matrix": [
+      [
+        318,
+        5,
+        24
+      ],
+      [
+        32,
+        379,
+        64
+      ],
+      [
+        143,
+        77,
+        1346
+      ]
+    ]
+  },
+  "tfidf_logreg": {
+    "labels": [
+      "Bearish",
+      "Bullish",
+      "Neutral"
+    ],
+    "matrix": [
+      [
+        249,
+        35,
+        63
+      ],
+      [
+        41,
+        356,
+        78
+      ],
+      [
+        116,
+        117,
+        1333
+      ]
+    ]
+  }
+}

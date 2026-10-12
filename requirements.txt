@@ -1,0 +1,22 @@
+# Dependencias del proyecto.
+# torch no se fija: Google Colab lo gestiona según la GPU asignada; en local instala la
+# versión de https://pytorch.org adecuada a tu hardware (CUDA, MPS o CPU).
+# Versiones probadas en la ejecución de referencia (Python 3.13, macOS, M1 Max) entre corchetes.
+
+torch                    # [2.14.1]
+transformers>=4.56       # [5.19.0] (usa el argumento dtype=, disponible desde 4.56)
+datasets>=3.0            # [5.1.0]
+evaluate>=0.4            # [0.4.6]
+accelerate>=0.33         # [usado por transformers para la colocación en dispositivo]
+huggingface_hub>=0.34    # [2.2.0]
+scikit-learn>=1.3        # [1.9.1]
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.7
+python-dotenv>=1.0       # lectura de HF_TOKEN desde .env
+
+# Solo para ejecutar/regenerar el notebook en local
+jupyterlab>=4.0
+nbformat>=5.9
+nbconvert>=7.0
+python-docx>=1.1        # generación del reporte Word (src/build_report.py)
